@@ -3,10 +3,10 @@ import { SITE } from '~/config.mjs';
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
-import Note from '~/components/widgets/Note.astro';
-import Features from '~/components/widgets/Features.astro';
+//import Note from '~/components/widgets/Note.astro';
+//import Features from '~/components/widgets/Features.astro';
 //import Features2 from '~/components/widgets/Features2.astro';
-import Steps from '~/components/widgets/Steps.astro';
+//import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
 import LatestPosts from '~/components/blog/LatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
@@ -24,11 +24,7 @@ const meta = {
 <Layout {meta}>
   <!-- Hero Widget ******************* --->
 
-  <Hero
-    callToAction={{ text: 'Contact Us', href: 'https://github.com/onwidget/astrowind' }}
-    callToAction2={{ text: 'View Our Projects', href: '#features' }}
-    image={{ src: import('~/assets/images/hero.png'), alt: 'AstroWind Hero Image' }}
-  />
+  <Hero image={{ src: import('~/assets/images/hero.png'), alt: 'AstroWind Hero Image' }} />
 
   <!-- Content Widget **************** -->
 
