@@ -17,7 +17,7 @@ export const headerData = {
     },
 
     {
-      text: 'Blog',
+      text: 'Projects',
       href: getBlogPermalink(),
     },
   ],
