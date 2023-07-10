@@ -16,7 +16,8 @@ export interface Props {
 
 const { post } = Astro.props;
 const image = await findImage(post.image);
-
+console.log(post, image); // Add this line to log the value of the `posts` variable
+console.log('-------------------------------------'); // Add this line to log the value of the `posts` variable
 const link = !BLOG?.post?.disabled ? getPermalink(post.permalink, 'post') : '';
 ---
 

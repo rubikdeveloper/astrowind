@@ -7,7 +7,8 @@ export interface Post {
   publishDate: Date;
   title: string;
   description?: string;
-
+  //images adeed for testing here....
+  images?: Array<string>;
   image?: string;
 
   canonical?: string | URL;
